@@ -1,0 +1,17 @@
+#Ignoring system files
+.DS_Store
+
+#Ignoring MS Offise support files
+*.xlsx
+*.docx
+*.doc
+
+#Ignoring tex auxiliary and output files
+*.aux
+*.out
+*.gz
+*.bak
+*.log
+
+#MagicPlot project
+*.mppz
