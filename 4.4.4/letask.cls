@@ -1,8 +1,8 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{letnab}
+\ProvidesClass{letask}
 \ProcessOptions
 
-\LoadClass[12pt,a4paper,final]{article}
+\LoadClass[12pt, a4paper, titlepage, final]{article}
 \RequirePackage[T2A, T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[english, russian]{babel}
@@ -13,13 +13,13 @@
 \let\nolimits\limits
 \let\displaylimits\limits
 % Математика
+\RequirePackage{iunits}
 \RequirePackage{amsmath}
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}
+\RequirePackage{bigints}
 \RequirePackage{cancel}
 \RequirePackage{mathrsfs}
-\RequirePackage[integrals]{wasysym}
-\RequirePackage{iunits}
 
 % Разметка
 \RequirePackage [hcentering,
@@ -33,6 +33,8 @@
 \setlength{\parindent}{0em}
 \renewcommand{\baselinestretch}{1.15}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\RequirePackage{titlesec}
+\titlelabel{\thetitle.\quad}
 
 % Графика
 \RequirePackage{graphicx}
@@ -45,6 +47,7 @@
 \newenvironment{bottompar}{\par\vspace*{\fill}}{\clearpage}
 
 % Нумерация страниц
+\RequirePackage{fancyref}
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
@@ -59,6 +62,3 @@
 \newcommand{\const}{\text{const}}
 \newcommand{\then}{\quad\Rightarrow\quad}
 \newcommand{\ef}{\mathscr{E}}
-
-
-\inputpaths{tools/}
