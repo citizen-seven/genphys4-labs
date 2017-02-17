@@ -2,7 +2,7 @@
 \ProvidesClass{letask}
 \ProcessOptions
 
-\LoadClass[12pt, a4paper, titlepage, final]{article}
+\LoadClass[12pt, a4paper, titlepage, draft]{article}
 \RequirePackage[T2A, T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[english, russian]{babel}
