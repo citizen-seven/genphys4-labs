@@ -42,7 +42,6 @@
 \RequirePackage{color}
 \RequirePackage{float}
 \RequirePackage{wrapfig}
-\RequirePackage{multirow}
 \newcommand{\tw}{\textwidth}
 \newcommand{\lw}{\linewidth}
 \newenvironment{bottompar}{\par\vspace*{\fill}}{\clearpage}
@@ -63,4 +62,3 @@
 \newcommand{\const}{\text{const}}
 \newcommand{\then}{\quad\Rightarrow\quad}
 \newcommand{\ef}{\mathscr{E}}
-\newcommand{\angstrom}{\textup{\AA}}
