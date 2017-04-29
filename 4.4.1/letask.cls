@@ -20,6 +20,7 @@
 \RequirePackage{cancel}
 \RequirePackage{mathrsfs}
 \RequirePackage{iunits}
+\usepackage{siunitx}
 
 % Разметка
 \RequirePackage [hcentering,
@@ -35,6 +36,7 @@
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \RequirePackage{titlesec}
 \titlelabel{\thetitle.\quad}
+\usepackage{multirow}
 
 % Графика
 \RequirePackage{graphicx}
@@ -62,3 +64,4 @@
 \newcommand{\const}{\text{const}}
 \newcommand{\then}{\quad\Rightarrow\quad}
 \newcommand{\ef}{\mathscr{E}}
+\newcommand{\angstrom}{\textup{\AA}}
