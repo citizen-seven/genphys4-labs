@@ -4,6 +4,7 @@
 #Ignoring MS Offise support files
 *.xlsx
 *.docx
+*.numbers
 *.doc
 
 #Ignoring tex auxiliary and output files
@@ -15,3 +16,6 @@
 
 #MagicPlot project
 *.mppz
+
+#Jupyter notebook checkpoints
+.ipynb*
